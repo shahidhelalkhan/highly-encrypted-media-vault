@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Media Locker</string>
+    <string name="imgFolder">Images</string>
+    <string name="vidfolder">Video</string>
+    <string name="docsBtn">Docs</string>
+</resources>

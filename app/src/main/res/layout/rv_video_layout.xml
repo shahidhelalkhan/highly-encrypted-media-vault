@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/videoLayout"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:elevation="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="100dp">
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_marginLeft="10dp"
+        android:layout_weight="0"
+        android:id="@+id/ivVideoThumb"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        tools:src="@tools:sample/avatars" />
+<TextView
+    android:layout_weight="1"
+    android:layout_marginLeft="20dp"
+    android:maxLength="20"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Helo"
+    android:id="@+id/tvVidName"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
